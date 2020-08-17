@@ -4,6 +4,6 @@ title:
 nationality:
 age:
 biography:
-fields: []
+style: []
 moviesId: []
 ---
