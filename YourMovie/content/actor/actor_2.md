@@ -2,7 +2,7 @@
 actorId: actor_2
 title: Actor, producer, singer
 nationality: American
-age:55
+age: 55
 genres: ["action","science fiction","comedy","fantasy","drama"]
 moviesId: [movie_1,movie_2]
 ---

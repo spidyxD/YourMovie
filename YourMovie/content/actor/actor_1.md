@@ -1,8 +1,8 @@
 ---
 actorId: actor_1
 title: Actress, singer
-nationality:American
-age:35
+nationality: American
+age: 35
 birthday: November 22, 1984
 genres: ["romantic","comedy","science fiction","drama","action"]
 moviesId: [movie_1,movie_2]

@@ -1,8 +1,8 @@
 ---
 actorId: actor_6
 title: Actor
-nationality:UK
-age:24
+nationality: UK
+age: 24
 genres: ["comedy","science fiction","action"]
 moviesId: [movie_4,movie_5,movie_6]
 ---

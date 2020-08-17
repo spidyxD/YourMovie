@@ -1,8 +1,8 @@
 ---
 actorId: actor_5
 title: Actress
-nationality:
-age:31
+nationality: American
+age: 31
 genres: ["romantic","comedy","science fiction","drama","action"]
 moviesId: [movie_1,movie_2]
 ---

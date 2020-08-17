@@ -2,7 +2,7 @@
 actorId: actor_4
 title: Actor
 nationality: Australian
-age:37
+age: 37
 genres:["action","science fiction","war","fantasy"]
 moviesId: [movie_1,movie_2]
 ---

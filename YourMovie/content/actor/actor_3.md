@@ -2,7 +2,7 @@
 actorId: actor_3
 title: Actress,filmmaker
 nationality: Jerusalem, American
-age:39
+age: 39
 genres: ["romantic","comedy","science fiction","drama","action"]
 moviesId: [movie_4,movie_5]
 ---
