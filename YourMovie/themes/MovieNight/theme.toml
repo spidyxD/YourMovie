@@ -1,12 +1,20 @@
-name = "Swift"
-license = "MIT"
-licenselink = "https://github.com/onweru/hugo-swift-theme/blob/master/LICENSE.md"
-description = "A simple open source theme for publishing with hugo"
-homepage = "https://github.com/onweru/hugo-swift-theme"
-tags = ["blog", "staticman", "simple", "dark", "minimalist", "fast", "light"]
-features = ["blog", "staticman", "simple", "dark", "minimalist", "fast"]
-min_version = "0.57.0"
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
+name = "MovieNight"
+license = "MIT"
+licenselink = "https://github.com/spidyxD/YourMovie/tree/master/themes/MovieNight/LICENSE"
+description = ""
+homepage = "https://github.com/spidyxD/YourMovie/tree/master/themes/MovieNight"
+min_version = "0.41.0"
+tags = ["library", "movie", "personal","modern", "accessibility", "font awesome"]
+features = ["blog", "staticman", "simple", "dark", "minimalist", "fast"]
 [author]
-    name ="weru"
-    homepage = "https://github.com/onweru/hugo-swift-theme"
+  name = "Roger Amador"
+  homepage = ""
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""
