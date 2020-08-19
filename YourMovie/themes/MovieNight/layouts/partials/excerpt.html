@@ -7,8 +7,19 @@
 {{- $image := $scratch.Get "image" }}
 {{- $bg := (path.Join "images" $image | absLangURL) }}
 <li class = 'post_item'>
-  <a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ absURL "images/{{ .actorId }}" }});'>
-  </a>
+{{- if isset .Params ".actorId" }}
+    <a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ absURL "images/{{ .actorId }}" }});'>
+	</a>
+{{- if isset .Params ".directorId" }}
+	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ absURL "images/{{ .directorId }}" }});'>
+	</a>
+{{- if isset .Params ".movieId" }}  
+	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ absURL "images/{{ .movieId }}" }});'>
+	</a>
+{{- else }}
+  
+{{- end }}
+
   <div class = 'excerpt'>
     <div class = 'excerpt_meta'>
     {{- with .Params.tags -}}
