@@ -10,9 +10,15 @@
 {{- if isset .Params ".actorId" }}
     <a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ absURL "images/{{ .actorId }}" }});'>
 	</a>
+	{{- else }}
+  
+{{- end }}
 {{- if isset .Params ".directorId" }}
 	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ absURL "images/{{ .directorId }}" }});'>
 	</a>
+{{- else }}
+  
+{{- end }}	
 {{- if isset .Params ".movieId" }}  
 	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ absURL "images/{{ .movieId }}" }});'>
 	</a>
