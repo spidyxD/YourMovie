@@ -1,7 +1,7 @@
 ---
 actorId: actor_6
-ocupation: Thomas Holland
-title: Actor
+ocupation: Actor
+title: Thomas Holland
 nationality: UK
 age: 24
 genres: ["comedy","science fiction","action"]
