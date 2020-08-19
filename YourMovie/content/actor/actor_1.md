@@ -1,6 +1,5 @@
 ---
 actorId: actor_1
-identifier: actor_1
 ocupation: Actress, singer
 title: Scarlett Johansson
 nationality: American
