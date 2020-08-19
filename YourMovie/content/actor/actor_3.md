@@ -8,7 +8,7 @@ genres: ["romantic","comedy","science fiction","drama","action"]
 moviesId: [movie_4,movie_5]
 ---
 
-#Natalie Portman (born Neta-Lee Hershlag;[a] June 9, 1981) is an actress and filmmaker with dual Israeli and American citizenship.
+# Natalie Portman (born Neta-Lee Hershlag;[a] June 9, 1981) is an actress and filmmaker with dual Israeli and American citizenship.
 Prolific in film since a teenager, she has starred in blockbusters and also played psychologically troubled women in independent films, for which she has received various accolades, including an Academy Award and two Golden Globe Awards.
 Portman began her acting career at age 12 by starring as the young protégée of a hitman in the action drama film Léon: The Professional (1994). While in high school, she made her Broadway theatre debut in a 1998 production of The Diary of a Young Girl and gained international recognition for starring as Padmé Amidala in Star Wars: Episode I – The Phantom Menace (1999). 
 From 1999 to 2003, Portman attended Harvard University for a bachelor's degree in psychology, while continuing to act in the Star Wars prequel trilogy (2002, 2005) and in The Public Theater's 2001 revival of Anton Chekhov's play The Seagull. In 2004, Portman was nominated for an Academy Award for Best Supporting Actress and won a Golden Globe Award for playing a mysterious stripper in the romantic drama Closer.
