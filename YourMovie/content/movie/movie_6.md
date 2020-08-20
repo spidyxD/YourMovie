@@ -15,6 +15,4 @@ Peter Parker begins to experience his newfound identity as superhero Spider-Man.
 
 After the experience with the Avengers, Peter returns home, where he lives with his aunt.
 
-Under the watchful eye of his mentor Tony Stark, Peter tries to maintain a normal life like any young man his age,
-
-but he interrupts the new villain Vulture in his daily routine and with him the most important part of Peter's life begins to be threatened.
+Under the watchful eye of his mentor Tony Stark, Peter tries to maintain a normal life like any young man his age, but he interrupts the new villain Vulture in his daily routine and with him the most important part of Peter's life begins to be threatened.
