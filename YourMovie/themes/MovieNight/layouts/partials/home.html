@@ -1,15 +1,3 @@
-{{- partial "intro" . }}
-{{- $filteredPosts := .Site.Params.blogDir }}
-{{- $pages := .Pages }}
-
-{{- if .IsHome }}
-  {{- $pages = .Site.RegularPages }}
-  {{- if $filteredPosts }}
-    {{- $pages = where $.Site.RegularPages "Section" $filteredPosts }}
-  {{- end }}
-{{- end }}
-
-
 {{- $scratch := newScratch }}
 {{- if isset .Params "image" }}
   {{- $scratch.Set "image" .Params.image }}
