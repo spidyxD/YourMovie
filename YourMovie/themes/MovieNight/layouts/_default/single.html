@@ -7,7 +7,7 @@
 {{- end }}
 {{- $image := $scratch.Get "image" }}
 {{- $bg := (path.Join "images" $image | absLangURL) }}
-<section class = 'post_header' style = 'background-image:url({{ $bg }});'>
+<section class = 'post_header' style = 'background-image:url({{ $bg }});background-size: contain;'>
   <h1 class='post_title'>{{ .Title }}</h1>
 </section>
 <div class = 'post'>
