@@ -2,6 +2,7 @@
 actorId: actor_1
 ocupation: Actress, singer
 title: Scarlett Johansson
+image: actor_1.jpg
 nationality: American
 age: 35
 birthday: November 22, 1984

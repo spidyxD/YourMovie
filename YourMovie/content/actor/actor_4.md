@@ -2,6 +2,7 @@
 actorId: actor_4
 ocupation: Actor
 title: Christopher Hemsworth
+image: actor_4.jpg
 nationality: Australian
 age: 37
 genres: ["action","science fiction","war","fantasy"]

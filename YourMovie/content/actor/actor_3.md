@@ -2,6 +2,7 @@
 actorId: actor_3
 ocupation: Actress,filmmaker
 title: Natalie Portman 
+image: actor_3.jpg
 nationality: Jerusalem, American
 age: 39
 genres: ["romantic","comedy","science fiction","drama","action"]

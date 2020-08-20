@@ -2,6 +2,7 @@
 actorId: actor_6
 ocupation: Actor
 title: Thom Holland
+image: actor_6.jpg
 nationality: UK
 age: 24
 genres: ["comedy","science fiction","action"]

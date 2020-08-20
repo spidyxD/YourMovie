@@ -3,6 +3,7 @@ movieId: movie_4
 title: Avengers Infinity War
 year: 2018
 copyright: 2018
+image: movie_4.jpg
 genre: Science fiction
 directorId: director_4
 actorsId: [actor_1,actor_2,actor_3,actor_4,actor_5]

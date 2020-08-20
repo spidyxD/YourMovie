@@ -4,6 +4,7 @@ title: Iron Man
 year: 2008
 copyright: 2008
 genre: Science fiction
+image: movie_1.jpg
 directorId: director_1
 actorsId: [actor_1,actor_2]
 languages: ["English"]

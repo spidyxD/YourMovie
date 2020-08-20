@@ -2,6 +2,7 @@
 directorId: director_3
 ocupation: Director, producer, writer, composer
 title: Anthony Russo
+image: director_3.jpg
 nationality: American
 age: 50
 style: ["Science fiction","super hero fiction","action"]

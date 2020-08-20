@@ -2,6 +2,7 @@
 actorId: actor_5
 ocupation: Actress
 title: Elizabeth Chase Olsen
+image: actor_5.jpg
 nationality: American
 age: 31
 genres: ["romantic","comedy","science fiction","drama","action"]

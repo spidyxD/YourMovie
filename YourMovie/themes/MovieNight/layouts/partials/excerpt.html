@@ -5,7 +5,7 @@
   {{- $scratch.Set "image" "thumbnail.svg" }}
 {{- end }}
 {{- $image := $scratch.Get "image" }}
-{{- $photo := $scratch.Get "image" }}
+{{- $photo := $scratch.Get .Params.autorId }}
 {{- $bg := (path.Join "images" $image | absLangURL) }}
 <li class = 'post_item'>
 {{- if .Params.actorId }}

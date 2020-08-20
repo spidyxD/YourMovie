@@ -4,6 +4,7 @@ title: Avengers Age of Ultron
 year: 2015
 copyright: 2015
 genre: Science fiction
+image: movie_3.jpg
 directorId: director_3
 actorsId: [actor_3,actor_4]
 languages: ["English"]

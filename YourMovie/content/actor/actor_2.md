@@ -3,6 +3,7 @@ actorId: actor_2
 ocupation: Actor, producer, singer
 title: Robert Downey Jr
 nationality: American
+image: actor_2.jpg
 age: 55
 genres: ["action","science fiction","comedy","fantasy","drama"]
 moviesId: [movie_1,movie_2]

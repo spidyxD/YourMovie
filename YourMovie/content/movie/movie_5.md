@@ -4,6 +4,7 @@ title: Avengers Endgame
 year: 2019
 copyright: 2019
 genre: Science fiction
+image: movie_5.jpg
 directorId: director_4
 actorsId: [actor_1,actor_2,actor_3,actor_4,actor_5]
 languages: ["English"]

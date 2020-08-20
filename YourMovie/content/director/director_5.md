@@ -2,6 +2,7 @@
 directorId: director_5
 ocupation: Film director, screenwriter, film producer
 title: Jon Watts
+image: director_5.jpg
 nationality: American
 age: 39
 style: ["Science fiction","super hero fiction","action"]

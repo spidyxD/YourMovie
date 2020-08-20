@@ -2,6 +2,7 @@
 directorId: director_1
 ocupation: Actor, director, producer, screenwriter
 title: Jonathan Favreau
+image: director_1.jpg
 nationality: American
 age: 53
 style: ["Science fiction"]

@@ -4,6 +4,7 @@ title: Thor
 year: 2011
 copyright: 2011
 genre: Science fiction
+image: movie_2.jpg
 directorId: director_2
 actorsId: [actor_3,actor_4]
 languages: ["English"]

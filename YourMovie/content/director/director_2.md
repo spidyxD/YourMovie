@@ -2,6 +2,7 @@
 directorId: director_2
 ocupation: Actor, director, producer, writer
 title: Sir Kenneth Charles Branagh
+image: director_2.jpg
 nationality: British
 age: 59
 style: ["Science fiction","super hero fiction"]

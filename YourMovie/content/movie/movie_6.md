@@ -4,6 +4,7 @@ title: Spider-Man Homecoming
 year: 2017
 copyright: 2017
 genre: Science fiction
+image: movie_6.jpg
 directorId: director_5
 actorsId: [actor_1,actor_6]
 languages: ["English"]
