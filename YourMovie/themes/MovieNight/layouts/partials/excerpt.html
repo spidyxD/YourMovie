@@ -5,17 +5,16 @@
   {{- $scratch.Set "image" "thumbnail.svg" }}
 {{- end }}
 {{- $image := $scratch.Get "image" }}
-{{- $photo := $scratch.Get .Params.autorId }}
 {{- $bg := (path.Join "images" $image | absLangURL) }}
 <li class = 'post_item'>
 {{- if .Params.actorId }}
-    <a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $photo }});'>
+    <a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $bg }});'>
 	</a>
 {{- else if .Params.directorId }}
 	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $bg }});'>
 	</a>
 {{- else if .Params.movieId }}  
-	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = ''>
+	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $bg }});'>
 	</a>	
 {{- else }}
 	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $bg }});'>
