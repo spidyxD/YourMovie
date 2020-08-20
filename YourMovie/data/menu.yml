@@ -1,7 +1,7 @@
 - item: Home
-  url: "YourMovie/YourMovie/themes/MovieNight/layouts/partials/home"
+  url: "movie/"
 - item: Actors
-  url: "YourMovie/YourMovie/themes/MovieNight/layouts/partials/actor"
+  url: "actor/"
 - item: Directors
-  url: "YourMovie/YourMovie/themes/MovieNight/layouts/partials/director"
+  url: "director/"
 
