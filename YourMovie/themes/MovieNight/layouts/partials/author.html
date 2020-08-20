@@ -1,11 +1,19 @@
 {{- $authors := .Site.Data.authors }}
 {{- $pageAuthor := .Params.author }}
+{{- $scratch := newScratch }}
+{{- if isset .Params "image" }}
+  {{- $scratch.Set "image" .Params.image }}
+{{- else }}
+  {{- $scratch.Set "image" "thumbnail.svg" }}
+{{- end }}
+{{- $image := $scratch.Get "image" }}
+{{- $bg := (path.Join "images" $image | absLangURL) }}
 {{- with $authors }}
   {{- $author := index (where . "name" $pageAuthor) 0 }}
   {{- with $author }}
     <div class = 'author'>
       <a href = '{{ .url }}' target = "{{ .name }}'s profile" class = 'author_pic'>
-        <img src = '{{ absURL "images/{{ .actorId }}" }}' alt = ''>
+        <img src = 'background-image: url({{ $bg }});background-size: 60%;' alt = ''>
       </a>
       <div class = 'author_meta'>
         <a class = 'author_name' href = '{{ .url }}'>{{ with .title }}{{ . }}{{ else }}{{ .name }}{{ end }}</a>

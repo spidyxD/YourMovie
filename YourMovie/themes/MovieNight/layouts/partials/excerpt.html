@@ -8,16 +8,16 @@
 {{- $bg := (path.Join "images" $image | absLangURL) }}
 <li class = 'post_item'>
 {{- if .Params.actorId }}
-    <a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $bg }});'>
+    <a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $bg }});background-size: 60%;'>
 	</a>
 {{- else if .Params.directorId }}
-	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $bg }});'>
+	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $bg }});background-size: 60%;'>
 	</a>
 {{- else if .Params.movieId }}  
-	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $bg }});'>
+	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $bg }});background-size: 60%;'>
 	</a>	
 {{- else }}
-	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $bg }});'>
+	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $bg }});background-size: 60%;'>
 	</a>
 {{- end }}
 

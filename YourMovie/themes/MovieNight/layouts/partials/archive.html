@@ -1,6 +1,7 @@
 {{- partial "intro" . }}
 {{- $filteredPosts := .Site.Params.blogDir }}
 {{- $pages := .Pages }}
+
 {{- if .IsHome }}
   {{- $pages = .Site.RegularPages }}
   {{- if $filteredPosts }}
