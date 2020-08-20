@@ -1,3 +1,15 @@
+{{- partial "intro" . }}
+{{- $filteredPosts := .Site.Params.blogDir }}
+{{- $pages := .Pages }}
+
+{{- if .IsHome }}
+  {{- $pages = .Site.RegularPages }}
+  {{- if $filteredPosts }}
+    {{- $pages = where $.Site.RegularPages "Section" $filteredPosts }}
+  {{- end }}
+{{- end }}
+
+
 {{- $scratch := newScratch }}
 {{- if isset .Params "image" }}
   {{- $scratch.Set "image" .Params.image }}
@@ -11,8 +23,8 @@
 <li class = 'post_item'>
     <a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $bg }});background-size: 60%;'>
 	</a>
-<div class = 'excerpt'>
-    <div class = 'excerpt_meta'>
+<div class = 'home'>
+    <div class = 'home_meta'>
     {{- with .Params.tags -}}
       {{- range first 1 . }}
       {{- $tag := . | urlize }}
