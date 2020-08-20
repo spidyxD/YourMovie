@@ -11,6 +11,14 @@ languages: ["English"]
 ---
 
 # Avengers Age of Ultron is a 2015 American superhero film based on the Marvel Comics superhero team the Avengers.
-Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the sequel to The Avengers (2012) and the 11th film in the Marvel Cinematic Universe (MCU). The film was written and directed by Joss Whedon and features an ensemble cast that includes Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans, Scarlett Johansson, Jeremy Renner, Don Cheadle, Aaron Taylor-Johnson, Elizabeth Olsen, Paul Bettany, Cobie Smulders, Anthony Mackie, Hayley Atwell, Idris Elba, Stellan Skarsgård, James Spader, and Samuel L. Jackson. In the film, the Avengers fight Ultron, an artificial intelligence obsessed with causing human extinction.
-The sequel was announced in May 2012 after the successful release of The Avengers, with Whedon set to return as writer and director in August. Whedon updated Ultron's origin for the film to involve the MCU's Avengers team, and introduced the characters Quicksilver and Scarlet Witch to whom Marvel shared the rights with 20th Century Fox. Casting began in June 2013 with the re-signing of Downey. Second unit filming began in February 2014 in South Africa with principal photography taking place between March and August, primarily at Shepperton Studios in Surrey, England. Additional footage was filmed in Italy, South Korea, Bangladesh, New York City, and around England. With an estimated net production budget of $365 million, it is the second most expensive film ever made.
-Avengers Age of Ultron premiered in Los Angeles on April 13, 2015, and was released in the United States on May 1, 2015, as part of Phase Two of the MCU. The film received generally positive reviews from critics and grossed over $1.4 billion worldwide, becoming the fourth-highest-grossing film of 2015 as well as the fifth-highest-grossing film of all time. Two sequels, Avengers: Infinity War and Avengers: Endgame, were released in April 2018 and April 2019, respectively.
+When Tony Stark tries to reactivate a disused program aimed at keeping the peace, 
+
+things start to go wrong and the most powerful heroes on Earth, including Iron Man, Captain America,
+
+Thor, The Incredible Hulk, Black Widow and Hawkeye, will have to face the ultimate test when the fate of
+
+the planet comes into play. When the villain Ultron emerges, it will be up to the Avengers to stop their
+
+terrible plans, which together with awkward alliances will lead to unexpected action that will pave the way
+
+for an epic and unique adventure.
