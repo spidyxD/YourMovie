@@ -6,15 +6,17 @@
 {{- end }}
 {{- $image := $scratch.Get "image" }}
 {{- $bg := (path.Join "images" $image | absLangURL) }}
+{{- $itemID := .Param.autorId}}
 <li class = 'post_item'>
-{{ if (isset .Params "actorId") }}
-    <a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ absURL "images/{{ .actorId }}"}}.jpg);'>
+{{- if .Params.actorId }}
+    <a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = ''>
+	{{ $itemID }}
 	</a>
-{{ else if (isset .Params "directorId") }}
-	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ absURL "images/{{ .directorId }}.jpg" }});'>
-	</a> 
-{{ else if (isset .Params "movieId") }}
-	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ absURL "images/{{ .movieId }}.jpg" }});'>
+{{- else if .Params.directorId }}
+	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = ''>
+	</a>
+{{- else if .Params.movieId }}  
+	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = ''>
 	</a>	
 {{- else }}
 	<a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $bg }});'>
