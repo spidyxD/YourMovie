@@ -8,9 +8,41 @@
     {{- $pages = where $.Site.RegularPages "Section" $filteredPosts }}
   {{- end }}
 {{- end }}
+
+
+{{- if .Params.movieId }}
 <ul class='posts wrap' id = 'posts'>
+  {{- range (.Paginate $pages).Pages }}
+    {{- partial "home" . }}
+  {{- end }}
+</ul>
+{{- template "_internal/pagination.html" . }}
+
+{{- else if .Params.directorId }}
+	<ul class='posts wrap' id = 'posts'>
+  {{- range (.Paginate $pages).Pages }}
+    {{- partial "director" . }}
+  {{- end }}
+</ul>
+{{- template "_internal/pagination.html" . }}
+
+{{- else if .Params.actorId }}  
+	<ul class='posts wrap' id = 'posts'>
+  {{- range (.Paginate $pages).Pages }}
+    {{- partial "actor" . }}
+  {{- end }}
+</ul>
+{{- template "_internal/pagination.html" . }}
+	
+{{- else }}
+	<ul class='posts wrap' id = 'posts'>
   {{- range (.Paginate $pages).Pages }}
     {{- partial "excerpt" . }}
   {{- end }}
 </ul>
 {{- template "_internal/pagination.html" . }}
+
+{{- end }}
+
+
+
