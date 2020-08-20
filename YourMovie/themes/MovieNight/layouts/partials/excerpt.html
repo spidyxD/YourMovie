@@ -6,7 +6,7 @@
 {{- end }}
 {{- $image := $scratch.Get "image" }}
 {{- $bg := (path.Join "images" $image | absLangURL) }}
-{{- $itemID := .Param.autorId}}
+{{- $itemID := .Param.autorId }}
 <li class = 'post_item'>
 {{- if .Params.actorId }}
     <a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = ''>
