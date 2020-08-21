@@ -1,32 +1,8 @@
-{{- partial "intro" . }}
-{{- $filteredPosts := .Site.Params.blogDir }}
-{{- $pages := .Pages }}
-
-{{- if .IsHome }}
-  {{- $pages = .Site.RegularPages }}
-  {{- if $filteredPosts }}
-    {{- $pages = where $.Site.RegularPages "Section" $filteredPosts }}
-  {{- end }}
-{{- end }}
 <div class = 'nav-drop'>
   <div class = 'nav-body'>
-  {{- range .Site.Data.menu }}
-	  {{- if eq .url "movie/" }}
-		  {{- range (.Paginate $pages).Pages }}			
-			 <a href = '{{- partial "home" . }}' class = 'nav_item'>{{ .item }}</a>
-		  {{- end }}
-	  {{- end }} 
-	  {{- if eq .url "director/" }}
-		  {{- range (.Paginate $pages).Pages }}		
-			<a href = '{{- partial "autor" . }}' class = 'nav_item'>{{ .item }}</a>
-		  {{- end }}
-	  {{- end }} 
-	  {{- if eq .url "actor/" }}
-		  {{- range (.Paginate $pages).Pages }}	
-			<a href = '{{- partial "director" . }}' class = 'nav_item'>{{ .item }}</a>
-		  {{- end }}
-	  {{- end }} 
-  {{- end }}
+    {{- range .Site.Data.menu }}
+      <a href = '{{ absURL .url }}' class = 'nav_item'>{{ .item }}</a>
+    {{- end }}
     <div class = 'nav-close'></div>
   </div>
 </div>
