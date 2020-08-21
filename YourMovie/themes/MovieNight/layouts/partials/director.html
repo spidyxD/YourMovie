@@ -6,7 +6,6 @@
 {{- end }}
 {{- $image := $scratch.Get "image" }}
 {{- $bg := (path.Join "images" $image | absLangURL) }}
-<h1>cargue {{ .Params.directorId }}</h1>
 {{- if .Params.directorId }}
 <li class = 'post_item'>
     <a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $bg }});background-size: 60%;'>
