@@ -15,25 +15,21 @@
 	  {{- range (.Paginate $pages).Pages }}
 		{{- partial "actor" . }}
 	  {{- end }}
-	  <h1>{{ .Params.title }}<h1/>
 	{{- end }}  
 	{{- if eq .Params.title "Director" }}  
 	  {{- range (.Paginate $pages).Pages }}
 		{{- partial "director" . }}
 	  {{- end }}
-	  <h1>{{ .Params.title }}<h1/>
 	{{- end }}  
 	{{- if eq .Params.title "Actor" }}  
 	  {{- range (.Paginate $pages).Pages }}
 		{{- partial "actor" . }}
-	  {{- end }}
-	  <h1>{{ .Params.title }}<h1/>
+	  {{- end }}	 
 	{{- end }}  
 	{{- if eq .Params.title "Home"}}
 		{{- range (.Paginate $pages).Pages }}
 		{{- partial "movie" . }}
-		{{- end }}
-		<h1>{{ .Params.title }}<h1/>
+		{{- end }}		
 	{{- end }}
  
 </ul>
