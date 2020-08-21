@@ -1,7 +1,7 @@
 <div class = 'nav-drop'>
   <div class = 'nav-body'>
     {{- range .Site.Data.menu }}
-      <a href = '{{ .url | relURL }}' class = 'nav_item'>{{ .item }}</a>
+      <a href = '{{ .url | absURL }}' class = 'nav_item'>{{ .item }}</a>
     {{- end }}
     <div class = 'nav-close'></div>
   </div>
