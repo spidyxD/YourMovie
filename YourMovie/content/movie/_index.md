@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Movie"
 description: ""
 images: ["avengers.jpg"]
 draft: false
