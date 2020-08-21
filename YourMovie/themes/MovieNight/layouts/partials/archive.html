@@ -10,10 +10,8 @@
 {{- end }}
 {{- $flag := "false" }}
 <ul class='posts wrap' id = 'posts'>
-  {{- range (.Paginate $pages).Pages }}
-    {{- partial "movie" . }}
-  {{- end }}
-  {{- if ne .Params.title "Home" }}
+  
+	{{- if ne .Params.title "Home" }}
 	  {{- range (.Paginate $pages).Pages }}
 		{{- partial "actor" . }}
 	  {{- end }}
@@ -23,7 +21,12 @@
 	  {{- range (.Paginate $pages).Pages }}
 		{{- partial "movie" . }}
 	  {{- end }}
-  {{- end }}
+	{{- end }}
+	{{- else }}
+		{{- range (.Paginate $pages).Pages }}
+		{{- partial "movie" . }}
+		{{- end }}
+	{{- end }}
  
 </ul>
 {{- template "_internal/pagination.html" . }}
