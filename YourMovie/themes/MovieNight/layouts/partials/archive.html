@@ -11,8 +11,16 @@
 
 <ul class='posts wrap' id = 'posts'>
   {{- range (.Paginate $pages).Pages }}
+    {{- partial "movie" . }}
+  {{- end }}
+    {{- range (.Paginate $pages).Pages }}
     {{- partial "actor" . }}
   {{- end }}
+    {{- range (.Paginate $pages).Pages }}
+    {{- partial "director" . }}
+  {{- end }}
+ 
+ 
 </ul>
 {{- template "_internal/pagination.html" . }}
 
