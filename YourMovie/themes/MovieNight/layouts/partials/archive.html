@@ -13,7 +13,7 @@
   
 	{{- if eq .Params.title "Movie" }}
 	  {{- range (.Paginate $pages).Pages }}
-		{{- partial "actor" . }}
+		{{- partial "movie" . }}
 	  {{- end }}
 	{{- end }}  
 	{{- if eq .Params.title "Director" }}  
