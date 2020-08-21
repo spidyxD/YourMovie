@@ -1,7 +1,9 @@
+{{- $flag := "true" }}
 <div class = 'nav-drop'>
   <div class = 'nav-body'>
     {{- range .Site.Data.menu }}
       <a href = '{{ .url | absURL }}' class = 'nav_item'>{{ .item }}</a>
+	  {{- $flag := .url }}
     {{- end }}
     <div class = 'nav-close'></div>
   </div>

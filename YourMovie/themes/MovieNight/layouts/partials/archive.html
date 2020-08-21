@@ -13,13 +13,17 @@
   {{- range (.Paginate $pages).Pages }}
     {{- partial "movie" . }}
   {{- end }}
-    {{- range (.Paginate $pages).Pages }}
-    {{- partial "actor" . }}
+  {{- if $flag }}
+	  {{- range (.Paginate $pages).Pages }}
+		{{- partial "actor" . }}
+	  {{- end }}
+	  {{- range (.Paginate $pages).Pages }}
+		{{- partial "director" . }}
+	  {{- end }}
+	  {{- range (.Paginate $pages).Pages }}
+		{{- partial "movie" . }}
+	  {{- end }}
   {{- end }}
-    {{- range (.Paginate $pages).Pages }}
-    {{- partial "director" . }}
-  {{- end }}
- 
  
 </ul>
 {{- template "_internal/pagination.html" . }}
