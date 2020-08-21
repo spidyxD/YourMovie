@@ -1,5 +1,5 @@
 - item: Home
-  url: "movie.html"
+  url: "home.html"
 - item: Actors
   url: "actor.html"
 - item: Directors
