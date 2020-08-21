@@ -13,7 +13,7 @@
   {{- range (.Paginate $pages).Pages }}
     {{- partial "movie" . }}
   {{- end }}
-  {{- if $flag != "false" }}
+  {{- if ne $flag "false" }}
 	  {{- range (.Paginate $pages).Pages }}
 		{{- partial "actor" . }}
 	  {{- end }}
