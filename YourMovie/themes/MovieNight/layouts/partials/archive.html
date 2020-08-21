@@ -13,7 +13,7 @@
 
 <ul class='posts wrap' id = 'posts'>
   {{- range (.Paginate $pages).Pages }}
-    {{- partial "home" . }}
+    {{- partial "movie" . }}
   {{- end }}
 </ul>
 {{- template "_internal/pagination.html" . }}

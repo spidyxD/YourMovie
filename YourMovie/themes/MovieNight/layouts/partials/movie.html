@@ -11,8 +11,8 @@
 <li class = 'post_item'>
     <a class = 'post_card' href='{{ .Permalink }}' title = '{{ .Title }}' style = 'background-image: url({{ $bg }});background-size: 60%;'>
 	</a>
-<div class = 'home'>
-    <div class = 'home_meta'>
+<div class = 'movie'>
+    <div class = 'movie_meta'>
     {{- with .Params.tags -}}
       {{- range first 1 . }}
       {{- $tag := . | urlize }}
