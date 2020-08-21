@@ -1,8 +1,22 @@
 <div class = 'nav-drop'>
   <div class = 'nav-body'>
-    {{- range .Site.Data.menu }}
-      <a href = '{{ absURL .url }}' class = 'nav_item'>{{ .item }}</a>
-    {{- end }}
+  {{- range .Site.Data.menu }}
+	  {{- if eq .url "movie/" }}
+		  {{- range (.Paginate $pages).Pages }}			
+			 <a href = '{{- partial "home" . }}' class = 'nav_item'>{{ .item }}</a>
+		  {{- end }}
+	  {{- end }} 
+	  {{- if eq .url "director/" }}
+		  {{- range (.Paginate $pages).Pages }}		
+			<a href = '{{- partial "autor" . }}' class = 'nav_item'>{{ .item }}</a>
+		  {{- end }}
+	  {{- end }} 
+	  {{- if eq .url "actor/" }}
+		  {{- range (.Paginate $pages).Pages }}	
+			<a href = '{{- partial "director" . }}' class = 'nav_item'>{{ .item }}</a>
+		  {{- end }}
+	  {{- end }} 
+  {{- end }}
     <div class = 'nav-close'></div>
   </div>
 </div>
