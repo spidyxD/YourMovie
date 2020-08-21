@@ -23,9 +23,9 @@
 	  {{- end }}
 	  <h1>{{ .Params.title }}<h1/>
 	{{- end }}  
-	{{- if eq .Params.title "Autor" }}  
+	{{- if eq .Params.title "Actor" }}  
 	  {{- range (.Paginate $pages).Pages }}
-		{{- partial "movie" . }}
+		{{- partial "actor" . }}
 	  {{- end }}
 	  <h1>{{ .Params.title }}<h1/>
 	{{- end }}  
