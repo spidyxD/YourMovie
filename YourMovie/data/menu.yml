@@ -1,7 +1,7 @@
 - item: Home
-  url: "/layouts/partials/movie.html"
+  url: "movie.html"
 - item: Actors
-  url: "/layouts/partials/actor.html"
+  url: "actor.html"
 - item: Directors
-  url: "/layouts/ partials/director.html"
+  url: "director.html"
 
