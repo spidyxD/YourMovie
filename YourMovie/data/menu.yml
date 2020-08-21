@@ -1,4 +1,4 @@
-- item: Home
+- item: Movies
   url: "movie"
 - item: Actors
   url: "actor"
