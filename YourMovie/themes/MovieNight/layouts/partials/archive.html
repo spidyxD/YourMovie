@@ -11,13 +11,15 @@
 {{- $flag := "false" }}
 <ul class='posts wrap' id = 'posts'>
   
-	{{- if ne .Params.title "Home" }}
+	{{- if ne .Params.title "Movie" }}
 	  {{- range (.Paginate $pages).Pages }}
 		{{- partial "actor" . }}
 	  {{- end }}
+	{{- if ne .Params.title "Director" }}  
 	  {{- range (.Paginate $pages).Pages }}
 		{{- partial "director" . }}
 	  {{- end }}
+	{{- if ne .Params.title "Autor" }}  
 	  {{- range (.Paginate $pages).Pages }}
 		{{- partial "movie" . }}
 	  {{- end }}	

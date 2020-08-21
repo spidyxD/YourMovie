@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Director"
 description: ""
 images: ["avengers.jpg"]
 draft: false

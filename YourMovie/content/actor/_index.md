@@ -1,5 +1,5 @@
 ---
-title: "Actors"
+title: "Actor"
 description: ""
 images: ["avengers.jpg"]
 draft: false
