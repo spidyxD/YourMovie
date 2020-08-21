@@ -13,7 +13,7 @@
   {{- range (.Paginate $pages).Pages }}
     {{- partial "movie" . }}
   {{- end }}
-  {{- if ne Params.title "Home" }}
+  {{- if ne .Params.title "Home" }}
 	  {{- range (.Paginate $pages).Pages }}
 		{{- partial "actor" . }}
 	  {{- end }}
