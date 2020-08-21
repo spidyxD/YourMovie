@@ -11,19 +11,22 @@
 {{- $flag := "false" }}
 <ul class='posts wrap' id = 'posts'>
   
-	{{- if ne .Params.title "Movie" }}
+	{{- if eq .Params.title "Movie" }}
 	  {{- range (.Paginate $pages).Pages }}
 		{{- partial "actor" . }}
 	  {{- end }}
-	{{- if ne .Params.title "Director" }}  
+	{{- end }}  
+	{{- if eq .Params.title "Director" }}  
 	  {{- range (.Paginate $pages).Pages }}
 		{{- partial "director" . }}
 	  {{- end }}
-	{{- if ne .Params.title "Autor" }}  
+	{{- end }}  
+	{{- if eq .Params.title "Autor" }}  
 	  {{- range (.Paginate $pages).Pages }}
 		{{- partial "movie" . }}
-	  {{- end }}	
-	{{- else if eq .Params.title "Home"}}
+	  {{- end }}
+	{{- end }}  
+	{{- if eq .Params.title "Home"}}
 		{{- range (.Paginate $pages).Pages }}
 		{{- partial "movie" . }}
 		{{- end }}
