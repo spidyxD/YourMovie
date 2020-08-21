@@ -8,12 +8,12 @@
     {{- $pages = where $.Site.RegularPages "Section" $filteredPosts }}
   {{- end }}
 {{- end }}
-
+{{- $flag := "false" }}
 <ul class='posts wrap' id = 'posts'>
   {{- range (.Paginate $pages).Pages }}
     {{- partial "movie" . }}
   {{- end }}
-  {{- if $flag }}
+  {{- if $flag != "false" }}
 	  {{- range (.Paginate $pages).Pages }}
 		{{- partial "actor" . }}
 	  {{- end }}
