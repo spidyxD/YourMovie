@@ -5,7 +5,7 @@ title: Chris Hemsworth
 image: actor_4.jpg
 nationality: Australian
 age: 37
-tags: ["Thor","Avengers Age of Ultron","Avengers Endgame","Avengers Infinity War"]
+tags: ["Thor","Avengers_Age_of_Ultron","Avengers_Endgame","Avengers_Infinity_War"]
 collaborations: [movie_1,movie_2]
 ---
 

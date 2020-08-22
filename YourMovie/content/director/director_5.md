@@ -5,7 +5,7 @@ title: Jon Watts
 image: director_5.jpg
 nationality: American
 age: 39
-tags: ["Spider-Man Homecoming"]
+tags: ["Spider-Man_Homecoming"]
 collaborations: [movie_6]
 ---
 
