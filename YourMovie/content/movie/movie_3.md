@@ -7,7 +7,7 @@ genre: Science fiction
 image: movie_3.jpg
 directorId: director_3
 actorsId: [actor_3,actor_4]
-tags: ["English","Science fiction","Heroes","Marvel","Stan Lee"]
+tags: ["Joseph Hill Whedon","Avengers1","Science fiction","Heroes","Marvel","Stan Lee"]
 ---
 
 # Avengers Age of Ultron is a 2015 American superhero film based on the Marvel Comics superhero team the Avengers.

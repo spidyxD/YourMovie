@@ -7,7 +7,7 @@ genre: Science fiction
 image: movie_1.jpg
 directorId: director_1
 actorsId: [actor_1,actor_2]
-tags: ["English","Science fiction","Heroes","Marvel","Stan Lee"]
+tags: ["Iron Man","Science fiction","Heroes","Marvel","Stan Lee"]
 ---
 
 # Iron Man is a 2008 American superhero film based on the Marvel Comics character of the same name.
