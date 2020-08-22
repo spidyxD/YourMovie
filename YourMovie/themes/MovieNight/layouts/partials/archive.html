@@ -9,8 +9,12 @@
   {{- end }}
 {{- end }}
 {{- $flag := "false" }}
-<ul class='posts wrap' id = 'posts'>
-  
+<ul class='posts wrap' id = 'posts'>  
+	{{- if eq .Params.title "Home"}}
+		{{- range (.Paginate $pages).Pages }}
+		{{- partial "movie" . }}
+		{{- end }}		
+	{{- end }}
 	{{- if eq .Params.title "Movie" }}
 	  {{- range (.Paginate $pages).Pages }}
 		{{- partial "movie" . }}
@@ -26,14 +30,9 @@
 		{{- partial "actor" . }}
 	  {{- end }}	 
 	{{- end }}  
-	{{- if eq .Params.title "Home"}}
-		{{- range (.Paginate $pages).Pages }}
-		{{- partial "movie" . }}
-		{{- end }}		
-	{{- end }}
- 
-</ul>
 
+</ul>
+{{- template "_internal/pagination.html" . }}
 
 
 
