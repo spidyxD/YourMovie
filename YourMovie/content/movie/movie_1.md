@@ -7,7 +7,7 @@ genre: Science fiction
 image: movie_1.jpg
 directorId: director_1
 actorsId: [actor_1,actor_2]
-tags: ["Jonathan Favreau","Iron Man","Science fiction","Heroes","Marvel","Stan Lee"]
+tags: ["Jonathan Favreau","Scarlett Johansson","Robert Downey Jr","Iron Man"]
 ---
 
 # Iron Man is a 2008 American superhero film based on the Marvel Comics character of the same name.

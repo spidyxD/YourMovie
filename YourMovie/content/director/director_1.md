@@ -5,7 +5,7 @@ title: Jonathan Favreau
 image: director_1.jpg
 nationality: American
 age: 53
-tags: ["Iron Man","Science fiction"]
+tags: ["Iron Man"]
 collaborations: [movie_1]
 ---
 

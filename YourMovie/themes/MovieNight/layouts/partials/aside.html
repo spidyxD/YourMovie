@@ -1,7 +1,8 @@
 <h3>{{ i18n "moreFrom" .Params.Title }}</h3>
 <ul class='posts aside'>
   {{- $kin := (where .Site.RegularPages ".Params.tags" "intersect" .Params.tags) }}
-  {{- with $kin }}
+  {{- $siblings := (where $kin ".Title" "!=" .Title) }}
+  {{- with $siblings }}
     {{- range first 5 . }}
       {{- partial "excerpt" . }}
     {{- end }}

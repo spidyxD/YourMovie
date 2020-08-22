@@ -7,7 +7,7 @@ genre: Science fiction
 image: movie_2.jpg
 directorId: director_2
 actorsId: [actor_3,actor_4]
-tags: ["Sir Kenneth Charles Branagh","Thor","Science fiction","Heroes","Marvel","Stan Lee"]
+tags: ["Sir Kenneth Charles Branagh","Christopher Hemsworth","Natalie Portman","Thor"]
 ---
 
 # Thor is a 2011 American superhero film based on the Marvel Comics character of the same name.

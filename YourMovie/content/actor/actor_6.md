@@ -5,7 +5,7 @@ title: Thom Holland
 image: actor_6.jpg
 nationality: UK
 age: 24
-tags: ["Spider-Man Homecoming","Avengers Age of Ultron","Avengers Infinity War","Avengers Endgame"]
+tags: ["Spider-Man","Avengers"]
 collaborations: [movie_4,movie_5,movie_6]
 ---
 

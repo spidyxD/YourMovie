@@ -5,7 +5,7 @@ title: Anthony & Joe Russo
 image: director_3.jpg
 nationality: American
 age: 50
-tags: ["Avengers Endgame","Avengers Infinity War","Science fiction","super hero fiction","action"]
+tags: ["Avengers Endgame","Avengers Infinity War"]
 collaborations: [movie_4,movie_5]
 ---
 

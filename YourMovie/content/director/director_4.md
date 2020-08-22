@@ -5,7 +5,7 @@ title: Joseph Hill Whedon
 image: director_4.jpg
 nationality: American
 age: 56
-tags: ["Avengers Age of Ultron","Science fiction","comedy","drama","super hero fiction","horror"]
+tags: ["Avengers Age of Ultron"]
 collaborations: [movie_3]
 ---
 

@@ -6,7 +6,7 @@ image: actor_1.jpg
 nationality: American
 age: 35
 birthday: November 22, 1984
-tags: ["Iron Man","Avengers Age of Ultron","Avengers Infinity War","Avengers Endgame"]
+tags: ["Iron Man","Avengers"]
 collaborations: [movie_1,movie_2]
 ---
 
