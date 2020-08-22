@@ -5,7 +5,7 @@ title: Elizabeth Chase Olsen
 image: actor_5.jpg
 nationality: American
 age: 31
-tags: ["romantic","comedy","science fiction","drama","action"]
+tags: ["Avengers Age of Ultron","Avengers Infinity War","Avengers Endgame"]
 collaborations: [movie_1,movie_2]
 ---
 
