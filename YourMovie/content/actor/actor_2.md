@@ -5,7 +5,7 @@ title: Robert Downey Jr
 nationality: American
 image: actor_2.jpg
 age: 55
-genres: ["action","science fiction","comedy","fantasy","drama"]
+tags: ["action","science fiction","comedy","fantasy","drama"]
 collaborations: [movie_1,movie_2]
 ---
 

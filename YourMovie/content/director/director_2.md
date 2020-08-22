@@ -5,7 +5,7 @@ title: Sir Kenneth Charles Branagh
 image: director_2.jpg
 nationality: British
 age: 59
-style: ["Science fiction","super hero fiction"]
+tags: ["Science fiction","super hero fiction"]
 collaborations: [movie_2]
 ---
 

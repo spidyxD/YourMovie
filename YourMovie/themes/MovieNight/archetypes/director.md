@@ -4,6 +4,6 @@ title:
 nationality:
 age:
 biography:
-style: []
+tags: []
 collaborations: []
 ---

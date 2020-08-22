@@ -7,7 +7,7 @@ image: movie_4.jpg
 genre: Science fiction
 directorId: director_4
 actorsId: [actor_1,actor_2,actor_3,actor_4,actor_5]
-languages: ["English"]
+tags: ["English","Science fiction","Heroes","Marvel","Stan Lee"]
 ---
 
 # Avengers Infinity War is a 2018 American superhero film based on the Marvel Comics superhero team the Avengers.

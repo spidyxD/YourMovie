@@ -7,7 +7,7 @@ genre: Science fiction
 image: movie_6.jpg
 directorId: director_5
 actorsId: [actor_1,actor_6]
-languages: ["English"]
+tags: ["English","Science fiction","Heroes","Marvel","Stan Lee"]
 ---
 
 # Spider-Man Homecoming is a 2017 American superhero film based on the Marvel Comics character Spider-Man.

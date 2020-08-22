@@ -5,7 +5,7 @@ title: Natalie Portman
 image: actor_3.jpg
 nationality: Jerusalem, American
 age: 39
-genres: ["romantic","comedy","science fiction","drama","action"]
+tags: ["romantic","comedy","science fiction","drama","action"]
 collaborations: [movie_4,movie_5]
 ---
 

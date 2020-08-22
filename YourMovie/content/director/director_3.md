@@ -5,7 +5,7 @@ title: Anthony & Joe Russo
 image: director_3.jpg
 nationality: American
 age: 50
-style: ["Science fiction","super hero fiction","action"]
+tags: ["Science fiction","super hero fiction","action"]
 collaborations: [movie_4,movie_5]
 ---
 

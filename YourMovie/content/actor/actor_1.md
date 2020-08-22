@@ -6,7 +6,7 @@ image: actor_1.jpg
 nationality: American
 age: 35
 birthday: November 22, 1984
-genres: ["romantic","comedy","science fiction","drama","action"]
+tags: ["romantic","comedy","science fiction","drama","action"]
 collaborations: [movie_1,movie_2]
 ---
 

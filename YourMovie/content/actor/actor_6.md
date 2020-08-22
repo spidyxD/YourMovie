@@ -5,7 +5,7 @@ title: Thom Holland
 image: actor_6.jpg
 nationality: UK
 age: 24
-genres: ["comedy","science fiction","action"]
+tags: ["comedy","science fiction","action"]
 collaborations: [movie_4,movie_5,movie_6]
 ---
 

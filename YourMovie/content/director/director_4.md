@@ -5,7 +5,7 @@ title: Joseph Hill Whedon
 image: director_4.jpg
 nationality: American
 age: 56
-style: ["Science fiction","comedy","drama","super hero fiction","horror"]
+tags: ["Science fiction","comedy","drama","super hero fiction","horror"]
 collaborations: [movie_3]
 ---
 

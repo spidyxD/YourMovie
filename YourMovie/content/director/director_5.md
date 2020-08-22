@@ -5,7 +5,7 @@ title: Jon Watts
 image: director_5.jpg
 nationality: American
 age: 39
-style: ["Science fiction","super hero fiction","action"]
+tags: ["Science fiction","super hero fiction","action"]
 collaborations: [movie_6]
 ---
 

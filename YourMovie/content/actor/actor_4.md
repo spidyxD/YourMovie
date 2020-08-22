@@ -5,7 +5,7 @@ title: Christopher Hemsworth
 image: actor_4.jpg
 nationality: Australian
 age: 37
-genres: ["action","science fiction","war","fantasy"]
+tags: ["action","science fiction","war","fantasy"]
 collaborations: [movie_1,movie_2]
 ---
 
