@@ -5,7 +5,7 @@ title: Elizabeth Olsen
 image: actor_5.jpg
 nationality: American
 age: 31
-tags: ["Avengers"]
+tags: ["Avengers Age of Ultron","Avengers Endgame","Avengers Infinity War"]
 collaborations: [movie_1,movie_2]
 ---
 

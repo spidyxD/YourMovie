@@ -5,7 +5,7 @@ title: Robert Downey Jr
 nationality: American
 image: actor_2.jpg
 age: 55
-tags: ["Iron Man","Avengers"]
+tags: ["Iron Man","Avengers Age of Ultron","Avengers Endgame","Avengers Infinity War","Spider-Man Homecoming"]
 collaborations: [movie_1,movie_2]
 ---
 

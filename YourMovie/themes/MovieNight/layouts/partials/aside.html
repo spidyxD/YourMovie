@@ -3,7 +3,7 @@
   {{- $kin := (where .Site.RegularPages ".Params.tags" "intersect" .Params.tags) }}
   {{- $siblings := (where $kin ".Title" "!=" .Title) }}
   {{- with $siblings }}
-    {{- range first 10 . }}
+    {{- range first 6 . }}
       {{- partial "excerpt" . }}
     {{- end }}
   {{- else }}
