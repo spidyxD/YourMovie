@@ -6,7 +6,7 @@ image: director_2.jpg
 nationality: British
 age: 59
 style: ["Science fiction","super hero fiction"]
-moviesId: [movie_2]
+collaborations: [movie_2]
 ---
 
 # Sir Kenneth Charles Branagh born 10 December 1960 is a Northern Irish actor, director, producer, and screenwriter. Branagh trained at the Royal Academy of Dramatic Art in London; in 2015 he succeeded Richard Attenborough as its president. He has both directed and starred in several film adaptations of William Shakespeare's plays, including Henry V (1989), for which he was nominated for the Academy Awards for Best Actor and Best Director, Much Ado About Nothing (1993), Othello (1995), Hamlet (1996), for which he was nominated for the Academy Award for Best Adapted Screenplay, Love's Labour's Lost (2000), and As You Like It (2006).

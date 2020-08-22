@@ -6,7 +6,7 @@ image: actor_6.jpg
 nationality: UK
 age: 24
 genres: ["comedy","science fiction","action"]
-moviesId: [movie_4,movie_5,movie_6]
+collaborations: [movie_4,movie_5,movie_6]
 ---
 
 # Thom Holland (born 1 June 1996)[1] is an English actor.

@@ -6,7 +6,7 @@ image: actor_3.jpg
 nationality: Jerusalem, American
 age: 39
 genres: ["romantic","comedy","science fiction","drama","action"]
-moviesId: [movie_4,movie_5]
+collaborations: [movie_4,movie_5]
 ---
 
 # Natalie Portman born Neta-Lee Hershlag June 9, 1981 is an actress and filmmaker with dual Israeli and American citizenship.

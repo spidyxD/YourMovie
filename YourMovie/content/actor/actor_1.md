@@ -7,7 +7,7 @@ nationality: American
 age: 35
 birthday: November 22, 1984
 genres: ["romantic","comedy","science fiction","drama","action"]
-moviesId: [movie_1,movie_2]
+collaborations: [movie_1,movie_2]
 ---
 
 # Scarlett Ingrid Johansson born November 22, 1984 is an American actress and singer.

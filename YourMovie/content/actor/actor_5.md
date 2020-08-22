@@ -6,7 +6,7 @@ image: actor_5.jpg
 nationality: American
 age: 31
 genres: ["romantic","comedy","science fiction","drama","action"]
-moviesId: [movie_1,movie_2]
+collaborations: [movie_1,movie_2]
 ---
 
 # Elizabeth Chase Olsen (born February 16, 1989) is an American actress.

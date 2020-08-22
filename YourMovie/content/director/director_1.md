@@ -6,7 +6,7 @@ image: director_1.jpg
 nationality: American
 age: 53
 style: ["Science fiction"]
-moviesId: [movie_1]
+collaborations: [movie_1]
 ---
 
 # Jonathan Favreau born October 19, 1966 is an American actor, director, producer, and screenwriter.

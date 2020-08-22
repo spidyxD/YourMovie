@@ -6,7 +6,7 @@ image: director_4.jpg
 nationality: American
 age: 56
 style: ["Science fiction","comedy","drama","super hero fiction","horror"]
-moviesId: [movie_3]
+collaborations: [movie_3]
 ---
 
 # Joseph Hill Whedon born June 23, 1964 is an American director, producer, writer, and composer.

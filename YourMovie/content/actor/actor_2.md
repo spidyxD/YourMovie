@@ -6,7 +6,7 @@ nationality: American
 image: actor_2.jpg
 age: 55
 genres: ["action","science fiction","comedy","fantasy","drama"]
-moviesId: [movie_1,movie_2]
+collaborations: [movie_1,movie_2]
 ---
 
 # Robert John Downey Jr. (born April 4, 1965)[1] is an American actor, producer, and singer.

@@ -6,7 +6,7 @@ image: director_5.jpg
 nationality: American
 age: 39
 style: ["Science fiction","super hero fiction","action"]
-moviesId: [movie_6]
+collaborations: [movie_6]
 ---
 
 # Jon Watts born June 28, 1981 is an American film director, producer, and screenwriter.

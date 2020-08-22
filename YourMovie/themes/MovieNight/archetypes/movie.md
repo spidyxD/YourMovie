@@ -6,6 +6,6 @@ copyright:
 genre: 
 sinpasis:
 directorId: 
-actorsId: []
+collaborations: []
 languages: []
 ---

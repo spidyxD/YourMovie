@@ -6,7 +6,7 @@ image: actor_4.jpg
 nationality: Australian
 age: 37
 genres: ["action","science fiction","war","fantasy"]
-moviesId: [movie_1,movie_2]
+collaborations: [movie_1,movie_2]
 ---
 
 # Christopher Hemsworth born 11 August 1983 is an Australian actor.
