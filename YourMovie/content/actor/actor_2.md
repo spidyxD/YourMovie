@@ -9,7 +9,7 @@ tags: ["Iron Man","Avengers"]
 collaborations: [movie_1,movie_2]
 ---
 
-# Robert John Downey Jr. (born April 4, 1965)[1] is an American actor, producer, and singer.
+# Robert John Downey Jr. (born April 4, 1965) is an American actor, producer, and singer.
 His career has been characterized by critical and popular success in his youth, followed by a period of substance abuse and legal troubles, before a resurgence of commercial success in middle age.
 
 In 2008, Downey was named by Time magazine among the 100 most influential people in the world,[2][3] and from 2013 to 2015, he was listed by Forbes as Hollywood's highest-paid actor.

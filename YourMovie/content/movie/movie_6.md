@@ -7,7 +7,7 @@ genre: Science fiction
 image: movie_6.jpg
 directorId: director_5
 actorsId: [actor_1,actor_6]
-tags: ["Jon Watts","Tom Holland","Spider-Man"]
+tags: ["Spider-Man","Jon Watts","Tom Holland"]
 ---
 
 # Spider-Man Homecoming is a 2017 American superhero film based on the Marvel Comics character Spider-Man.

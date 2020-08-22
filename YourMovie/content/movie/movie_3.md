@@ -7,7 +7,7 @@ genre: Science fiction
 image: movie_3.jpg
 directorId: director_3
 actorsId: [actor_3,actor_4]
-tags: ["Joseph Hill Whedon","Scarlett Johansson","Robert Downey Jr","Chris Hemsworth","Elizabeth Olsen","Avengers"]
+tags: ["Avengers","Joseph Hill Whedon","Scarlett Johansson","Robert Downey Jr","Chris Hemsworth","Elizabeth Olsen"]
 ---
 
 # Avengers Age of Ultron is a 2015 American superhero film based on the Marvel Comics superhero team the Avengers.
