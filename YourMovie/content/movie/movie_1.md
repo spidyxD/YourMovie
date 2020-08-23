@@ -21,5 +21,3 @@ Ironman is excellent for laying the foundation for what would eventually build M
 But for those of us who aren't so demanding or, rather, purist in the movies, who like to let ourselves be carried away by the emotion of the action, Ironman more than succeeds in introducing us to one of the most popular characters of the 2000s and who will ultimately remain part of the generations to come. Just as I am a lover of the first Star Wars trilogy, the children of the future will see a young Robert Downey Jr. and say, what good times the old man had.
 
 Without a doubt his two hours are spent like water and enjoyed much more, the story will serve as the structure for some of the future deliveries, there is no other Tony Stark for me that is not Downey Jr. and Jeff Bridges is a gift to the world of cinema even though his villainous character falls into clichés and motivations that cannot sustain him as much as what the film represents for the Marvel universe.
-
-# Directed by 
